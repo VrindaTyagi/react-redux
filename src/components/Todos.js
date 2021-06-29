@@ -15,7 +15,7 @@ const mapDispatchToProps = (dispatch) => {
     addTodo: (obj) => dispatch(addTodos(obj)),
   };
 };
-
+//addtodo is an action creator function, obj contains type and data
 const Todos = (props) => {
   const [todo, setTodo] = useState("");
 
